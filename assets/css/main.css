@@ -1,0 +1,235 @@
+
+body{
+	max-width: 100%;
+	margin: 0px;
+	float: left;
+	padding: 0px;
+}
+
+/****First Page****/
+#first-page{
+	background: url(../img/photo.jpg) center no-repeat;
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+
+}
+
+/****Nav Bar****/
+.navbar.navbar-default{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    margin-left: 1030px;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+	display: inline-block;
+	color: #958B72;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.container{
+	color: #958B72;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.name{
+	margin-top: 200px;
+	font-size: 66px;
+}
+
+.titulli{
+	font-size: 36px;
+}
+
+.vija{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/***About Page****/
+#idpgabout{
+	width: 100%;
+	height: 800px;
+	background-color: #d9cdbf;	
+}
+
+.img-responsive {
+    display: block;
+    max-width: 275px;
+    height: 250px;
+    border: 3px solid #695a5a;
+    margin-left: 590px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.bottom{
+	color: #695a5a;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+#column-left{
+	max-width: 40%;
+	float: left;
+	padding-left: 30px;
+}
+
+#column-right{
+	max-width: 40%;
+	float:right;
+	padding-right: 30px;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+	margin: 20px;
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #a9a39b;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 17px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;   
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover { /* round twitter icon*/
+    background: #00ABE3;
+}
+
+.social .fa-github:hover { /* round github icon*/
+    background: #343434;
+}
+
+.social .fa-linkedin:hover { /* round linkedin icon*/
+    background: #0094BC;
+}
+
+.social .fa-instagram:hover { /* round instagram icon*/
+    background: #375989;
+}
+
+
+
+/***Portfolio Page***/
+#idpgportfolio{
+	background: url(../img/photo2.jpg) center no-repeat;
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	 }
+
+h1{
+	padding-top: 650px;
+	padding-left: 635px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#695a5a;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+/***Contact Page***/
+#idpgcontact{
+	width: 100%;
+	height: 400px;
+	background-color: #d9cdbf;
+	color: #695a5a;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 90px;
+	padding-left: 100px;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+footer{
+	background-color: #e6e4e9;
+	padding-left: 675px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	width: 100%;
+	height: 70px;
+	color: #777777;
+}
+
+/***SEND MESSAGE PAGE***/
+#idpgsendmessage{
+	background-color: #e6e4e9;
+	width: 100%;
+	height: 400px;	
+}
+
+.contactform{
+	padding-left: 150px;
+	color: #777777;
+}
+
+.labela{
+	border-radius: 5px;
+	width: 300px;
+	background-color:rgba(255,255,255,0.64);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+	color: #777777;
+	padding-top: 5px;
+    padding-left: 150px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+}
+
+::-webkit-input-placeholder{
+	padding-left: 8px;
+	padding-top: 8px;
+}
